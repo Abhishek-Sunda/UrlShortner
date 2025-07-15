@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "Start": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "express": "^5.1.0",
