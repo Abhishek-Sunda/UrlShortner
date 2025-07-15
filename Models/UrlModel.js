@@ -13,7 +13,7 @@ const UrlSchema = new mongoose.Schema(
             type     : String,
             required : true,
        },
-        VistHist     : [{timestamp : { type : number}}],
+        VistHist     : [{timestamp : { type : Number}}],
     },
     {
         timestamps:true    
